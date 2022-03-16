@@ -4,7 +4,6 @@
   "description": "CLI for gettinf weather",
   "main": "index.js",
   "bin": "./index.js",
-  
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +22,8 @@
   "bugs": {
     "url": "https://purpleschool.ru",
     "email": "danilfalka@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
   }
 }
