@@ -1,0 +1,27 @@
+{
+  "name": "weather_node",
+  "version": "1.0.0",
+  "description": "CLI for gettinf weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Danil",
+  "license": "ISC",
+  "homepage": "httms://purpleschool.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://purpleschool.ru"
+  },
+  "bugs": {
+    "url": "https://purpleschool.ru",
+    "email": "danilfalka@gmail.com"
+  }
+}
