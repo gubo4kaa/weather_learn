@@ -6,7 +6,7 @@ import { promises } from 'fs'
 
 const filePath = join(homedir(), 'weather-data.json')
 
-const TOKEN_DICTIONARY ={
+const TOKEN_DICTIONARY = {
 	token: 'token',
 	city: 'city'
 }
@@ -21,6 +21,7 @@ const saveKeyValue = async (key, value) => {
 	data[key] = value;
 	await promises.writeFile(filePath, JSON.stringify(data))
 }
+
 
 const getKeyValue = async (key) => {
 	let data = {}
